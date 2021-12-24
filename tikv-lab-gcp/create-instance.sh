@@ -4,7 +4,7 @@ PROJECT=XXXXXXXX
 ZONE=asia-east2-a
 MACHINE_TYPE=e2-medium
 SUBNET=subnet-asia-east2
-SERVICE_ACCOUNT=xxxxxxxxxx-compute@developer.gserviceaccount.com
+SERVICE_ACCOUNT=xxxxxxxxxx@developer.gserviceaccount.com
 
 DEMO_INSTANCE_LABEL="tidb-demo"
 BASTION_INSTANCE_LABEL="tidb-bastion"
