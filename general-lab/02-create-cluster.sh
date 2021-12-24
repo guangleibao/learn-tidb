@@ -1,0 +1,1 @@
+~/.tiup/bin/tiup cluster deploy test-general 5.2.3 aio.yaml
