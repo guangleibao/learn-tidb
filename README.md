@@ -1,16 +1,18 @@
 # Runnable Samples for Learning TiDB
-+ Notes: No containers required for this version
++ Notes:
+  + No containers required for this version.
+  + Samples in this project are not designed for `playground`, they are real `clusters` but consume minimal resources.
 
 ## Preparation steps for the "cloud guys"
-1. AWS or GCP accounts at hands.
-2. Spin up Ubuntu 18.04 VM in the cloud infra.
++ AWS or GCP accounts at hands.
++ Labs:
    1. `general-lab` requires one instance.
    2. `tidb-lab` requires one instance.
    3. `tikv-lab-aws` and `tikv-lab-gcp` require two instances.
-      1. In case of AWS, tag them with key `Name`, set value to `bastion` and `demo` respectively.
-      2. In case of GCP, nodes naming scripts are provided.
-3. `ssh` into (any) VM by using `-A` option (for simple handling the `-i` and `-u` options with `tiup` tool).
-4. Make sure current user has passwordless `sudo` permission (Cloud providers should already did this for you).
+    + In case of AWS, tag them with key `Name`, set value to `bastion` and `demo` respectively.
+    + In case of GCP, nodes naming scripts are provided.
++ `ssh` into (any) VM by using `-A` option (for simple handling the `-i` and `-u` options with `tiup` tool).
++ Make sure current user has passwordless `sudo` permission (Cloud providers should already did this for you).
 
 ## general-lab folder
 ### Concept
