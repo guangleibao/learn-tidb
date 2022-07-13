@@ -32,6 +32,7 @@ pd_servers:
     peer_port: 2380
     config:
       server.labels:
+        region: oregon
         zone: pdx
         dc: dc1
         rack: rack1
