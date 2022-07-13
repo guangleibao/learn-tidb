@@ -1,2 +1,2 @@
 #!/bin/bash
-~/.tiup/bin/tiup cluster stop test-kv --yes
+~/.tiup/bin/tiup cluster stop test-asi --yes
